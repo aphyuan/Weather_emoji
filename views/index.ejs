@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <p>Powered by AccuWeather</p>
+    <form action="/form" method="post">
+      <label>Where are you: </label>
+      <input type="text" name="location">
+      <input type="submit" name="Take A Look">
+    </form>
+  </body>
+</html>
